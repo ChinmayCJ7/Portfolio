@@ -7,10 +7,10 @@ export default function Home() {
       <section className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
         <div className="lg:col-span-7 space-y-12">
           <div className="space-y-4">
-            <div className="dot-matrix text-7xl md:text-9xl font-black tracking-tighter opacity-90 leading-none">
+            <div className="dot-matrix text-6xl md:text-8xl lg:text-9xl font-black tracking-tighter opacity-90 leading-none">
               Chinmay J
             </div>
-            <h1 className="font-headline text-5xl md:text-7xl lg:text-8xl text-primary leading-[1.1] -tracking-[0.02em]">
+            <h1 className="font-headline text-4xl md:text-6xl lg:text-8xl text-primary leading-[1.1] -tracking-[0.02em]">
               Hello, I'm Chinmay. <br />
               <span className="italic text-on-surface-variant font-light">A Software Engineer.</span>
             </h1>
@@ -20,12 +20,12 @@ export default function Home() {
               Motivated Software Engineer with hands-on experience in full-stack web development, REST API design, JWT authentication, and database-driven applications.
             </p>
           </div>
-          <div className="flex flex-wrap gap-6 pt-4">
-            <Link to="/projects" className="bg-primary text-on-primary px-10 py-5 rounded-full text-lg font-bold forest-glow hover:bg-primary-container transition-all active:scale-95 flex items-center gap-2">
+          <div className="flex flex-wrap gap-4 md:gap-6 pt-4">
+            <Link to="/projects" className="bg-primary text-on-primary px-8 py-4 md:px-10 md:py-5 rounded-full text-base md:text-lg font-bold forest-glow hover:bg-primary-container transition-all active:scale-95 flex items-center gap-2">
               View Projects
               <span className="material-symbols-outlined text-xl">arrow_outward</span>
             </Link>
-            <Link to="/contact" className="border border-outline-variant/30 text-primary px-10 py-5 rounded-full text-lg font-bold hover:bg-surface-container-low transition-all active:scale-95">
+            <Link to="/contact" className="border border-outline-variant/30 text-primary px-8 py-4 md:px-10 md:py-5 rounded-full text-base md:text-lg font-bold hover:bg-surface-container-low transition-all active:scale-95">
               Contact Me
             </Link>
           </div>
@@ -56,8 +56,8 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="max-w-7xl mx-auto mt-40 pb-20">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <section className="max-w-7xl mx-auto mt-24 md:mt-40 pb-20">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
           <div className="bg-surface-container-low p-10 rounded-lg space-y-6">
             <span className="material-symbols-outlined text-4xl text-secondary">terminal</span>
             <h3 className="font-headline text-3xl text-primary">Languages & Tools</h3>

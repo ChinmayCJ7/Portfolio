@@ -1,58 +1,58 @@
 export default function About() {
   return (
-    <main className="grid-background min-h-screen pt-40 px-6 lg:px-12 pb-24">
-      <section className="max-w-4xl mx-auto space-y-24">
+    <main className="grid-background min-h-screen pt-32 md:pt-40 px-6 lg:px-12 pb-24">
+      <section className="max-w-4xl mx-auto space-y-16 md:space-y-24">
         
         {/* Header */}
         <div className="space-y-6 text-center">
-          <h1 className="font-headline text-5xl md:text-7xl text-primary">About Me</h1>
-          <p className="text-xl text-on-surface-variant max-w-2xl mx-auto leading-relaxed">
+          <h1 className="font-headline text-4xl md:text-5xl lg:text-7xl text-primary">About Me</h1>
+          <p className="text-lg md:text-xl text-on-surface-variant max-w-2xl mx-auto leading-relaxed">
             I'm Chinmay J, a motivated Software Engineer with a strong foundation in full-stack web development, SDLC, OOP, and problem solving.
           </p>
         </div>
 
         {/* Education */}
-        <div className="space-y-12">
-          <h2 className="font-headline text-4xl text-primary border-b border-outline-variant/20 pb-4">Education</h2>
+        <div className="space-y-8 md:space-y-12">
+          <h2 className="font-headline text-3xl md:text-4xl text-primary border-b border-outline-variant/20 pb-4">Education</h2>
           
-          <div className="space-y-10">
-            <div className="flex flex-col md:flex-row md:justify-between items-start gap-4 p-8 bg-surface-container-low rounded-xl forest-glow">
+          <div className="space-y-6 md:space-y-10">
+            <div className="flex flex-col md:flex-row md:justify-between items-start gap-4 p-6 md:p-8 bg-surface-container-low rounded-xl forest-glow">
               <div>
-                <h3 className="text-2xl font-headline font-bold text-on-surface">B.E in Computer Science and Engineering</h3>
-                <p className="text-lg text-secondary mt-1">P.E.S. College of Engineering, Mandya, Karnataka</p>
+                <h3 className="text-xl md:text-2xl font-headline font-bold text-on-surface">B.E in Computer Science and Engineering</h3>
+                <p className="text-base md:text-lg text-secondary mt-1">P.E.S. College of Engineering, Mandya, Karnataka</p>
               </div>
-              <div className="bg-surface-container-highest px-4 py-2 rounded-lg">
-                <span className="text-sm font-label font-bold tracking-widest uppercase">2022 - Present</span>
+              <div className="w-full md:w-auto bg-surface-container-highest px-4 py-2 rounded-lg text-center">
+                <span className="text-xs md:text-sm font-label font-bold tracking-widest uppercase">2022 - Present</span>
               </div>
             </div>
 
-            <div className="flex flex-col md:flex-row md:justify-between items-start gap-4 p-8 bg-surface-container-low rounded-xl forest-glow">
+            <div className="flex flex-col md:flex-row md:justify-between items-start gap-4 p-6 md:p-8 bg-surface-container-low rounded-xl forest-glow">
               <div>
-                <h3 className="text-2xl font-headline font-bold text-on-surface">PUC (Pre-University)</h3>
-                <p className="text-lg text-secondary mt-1">Cauvery Excel PU College, Mandya, Karnataka</p>
+                <h3 className="text-xl md:text-2xl font-headline font-bold text-on-surface">PUC (Pre-University)</h3>
+                <p className="text-base md:text-lg text-secondary mt-1">Cauvery Excel PU College, Mandya, Karnataka</p>
               </div>
-              <div className="bg-surface-container-highest px-4 py-2 rounded-lg">
-                <span className="text-sm font-label font-bold tracking-widest uppercase">2020 - 2022</span>
+              <div className="w-full md:w-auto bg-surface-container-highest px-4 py-2 rounded-lg text-center">
+                <span className="text-xs md:text-sm font-label font-bold tracking-widest uppercase">2020 - 2022</span>
               </div>
             </div>
 
-            <div className="flex flex-col md:flex-row md:justify-between items-start gap-4 p-8 bg-surface-container-low rounded-xl forest-glow">
+            <div className="flex flex-col md:flex-row md:justify-between items-start gap-4 p-6 md:p-8 bg-surface-container-low rounded-xl forest-glow">
               <div>
-                <h3 className="text-2xl font-headline font-bold text-on-surface">10th (SSLC)</h3>
-                <p className="text-lg text-secondary mt-1">Chinmaya Vidyalaya, Mandya, Karnataka</p>
+                <h3 className="text-xl md:text-2xl font-headline font-bold text-on-surface">10th (SSLC)</h3>
+                <p className="text-base md:text-lg text-secondary mt-1">Chinmaya Vidyalaya, Mandya, Karnataka</p>
               </div>
-              <div className="bg-surface-container-highest px-4 py-2 rounded-lg">
-                <span className="text-sm font-label font-bold tracking-widest uppercase">2019 - 2020</span>
+              <div className="w-full md:w-auto bg-surface-container-highest px-4 py-2 rounded-lg text-center">
+                <span className="text-xs md:text-sm font-label font-bold tracking-widest uppercase">2019 - 2020</span>
               </div>
             </div>
           </div>
         </div>
 
         {/* Certifications & Leadership */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16">
           
-          <div className="space-y-8">
-            <h2 className="font-headline text-4xl text-primary border-b border-outline-variant/20 pb-4">Certifications</h2>
+          <div className="space-y-6 md:space-y-8">
+            <h2 className="font-headline text-3xl md:text-4xl text-primary border-b border-outline-variant/20 pb-4">Certifications</h2>
             <ul className="space-y-6">
               <li className="flex gap-4">
                 <span className="material-symbols-outlined text-secondary pt-1">military_tech</span>
@@ -73,8 +73,8 @@ export default function About() {
             </ul>
           </div>
 
-          <div className="space-y-8">
-            <h2 className="font-headline text-4xl text-primary border-b border-outline-variant/20 pb-4">Leadership</h2>
+          <div className="space-y-6 md:space-y-8">
+            <h2 className="font-headline text-3xl md:text-4xl text-primary border-b border-outline-variant/20 pb-4">Leadership</h2>
             <ul className="space-y-6">
               <li className="flex gap-4">
                 <span className="material-symbols-outlined text-secondary pt-1">groups</span>
