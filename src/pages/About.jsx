@@ -10,8 +10,8 @@ export default function About() {
         {/* Header */}
         <div className="space-y-6 text-center">
           <h1 className="font-headline text-4xl md:text-5xl lg:text-7xl text-primary">About Me</h1>
-          <p className="text-lg md:text-xl text-on-surface-variant max-w-2xl mx-auto leading-relaxed">
-            I'm Chinmay J, a motivated Software Engineer with a strong foundation in full-stack web development, SDLC, OOP, and problem solving.
+          <p className="text-lg md:text-xl text-on-surface-variant max-w-2xl mx-auto leading-relaxed font-light">
+            I'm Chinmay J, a motivated Software Engineer with a strong foundation in full-stack web development, REST API architectures, and database design. I specialize in building scalable, secure backend systems using Java Spring Boot, Node.js, PostgreSQL, and Docker containerization.
           </p>
           <div className="pt-4">
             <button 

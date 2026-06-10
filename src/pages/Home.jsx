@@ -62,7 +62,7 @@ export default function Home() {
             <span className="material-symbols-outlined text-4xl text-secondary">terminal</span>
             <h3 className="font-headline text-3xl text-primary">Languages & Tools</h3>
             <p className="text-on-surface-variant leading-relaxed">
-              Java, Python, JavaScript, HTML, CSS. Using tools like Git, GitHub, Postman, VS Code, and Figma. Basic AWS and Cloud skills.
+              Java, JavaScript, Python, HTML, CSS. Using tools like Git, GitHub, Docker, Postman, Maven, and VS Code. AWS Cloud deployment.
             </p>
           </div>
           
@@ -78,7 +78,7 @@ export default function Home() {
             <span className="material-symbols-outlined text-4xl text-secondary">database</span>
             <h3 className="font-headline text-3xl text-primary">Backend & Data</h3>
             <p className="text-on-surface-variant leading-relaxed">
-              Node.js, Express.js REST API development with JWT authentication. Hands-on experience with MongoDB and SQL databases.
+              Java Spring Boot (Spring Security, Spring Data JPA) and Node.js REST API design. Row-level multi-tenancy, JWT stateless auth with RBAC, PostgreSQL (AWS RDS), MongoDB, and Flyway migrations.
             </p>
           </div>
         </div>
