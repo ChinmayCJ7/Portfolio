@@ -479,6 +479,40 @@ export default function Projects() {
             );
           })}
         </div>
+
+        {/* GitHub Contributions Graph */}
+        <div className="flex flex-col gap-8 bg-surface-container-low p-6 md:p-10 rounded-xl forest-glow border border-outline-variant/10">
+          <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
+            <div className="space-y-2">
+              <h2 className="text-2xl md:text-3xl font-headline font-bold text-primary flex items-center gap-2">
+                <span className="material-symbols-outlined text-secondary text-3xl">bar_chart</span>
+                GitHub Contributions
+              </h2>
+              <p className="text-md text-on-surface-variant leading-relaxed">
+                My open-source contributions and development calendar on GitHub.
+              </p>
+            </div>
+            <a 
+              href="https://github.com/ChinmayCJ7" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="bg-secondary text-on-secondary px-6 py-3 rounded-full text-md font-bold hover:bg-secondary/90 transition-all active:scale-95 inline-flex items-center gap-2 self-start md:self-auto"
+            >
+              View GitHub Profile
+              <span className="material-symbols-outlined text-lg">open_in_new</span>
+            </a>
+          </div>
+          
+          <div className="overflow-x-auto rounded-lg bg-surface p-6 border border-outline-variant/20 flex justify-center items-center">
+            <div className="min-w-[800px] w-full flex justify-center">
+              <img 
+                src="https://ghchart.rshah.org/051a0f/ChinmayCJ7" 
+                alt="My GitHub Contributions Graph" 
+                className="w-full h-auto object-contain filter dark:brightness-95 contrast-[1.02]"
+              />
+            </div>
+          </div>
+        </div>
       </section>
     </main>
   );
